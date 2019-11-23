@@ -158,5 +158,45 @@ public class UserRegistrationTest {
         Assert.assertEquals(this.expectedValidation,res);
     }
 
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////
+    @Test
+    public void givenPassword_Whenproper_ShouldMinimumEightChar_ReturnTrue() {
+        Assert.assertTrue(userRegistration.validatePassWord("Aj@1hfdfhAdsk"));
+    }
+
+    @Test
+    public void givenPassword_Whenproper_ShouldMinimumEightChar_ReturnFalse() {
+        Assert.assertFalse(userRegistration.validatePassWord("Aj@1"));
+    }
+
+    @Test
+    public void givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnTrue() {
+        Assert.assertTrue(userRegistration.validatePassWord("Aj@1hfdfhAdsk"));
+    }
+
+    @Test
+    public void givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnFalse() {
+        Assert.assertFalse(userRegistration.validatePassWord("j@1hfdfhdsk"));
+    }
+
+    @Test
+    public void givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnTrue() {
+        Assert.assertTrue(userRegistration.validatePassWord("j@1hfaAdfhdsk"));
+    }
+
+    @Test
+    public void givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnFalse() {
+        Assert.assertFalse(userRegistration.validatePassWord("j@hfaAdfhdsk"));
+    }
+
+    @Test
+    public void givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnTrue() {
+        Assert.assertTrue(userRegistration.validatePassWord("j@hfa1Adfhdsk"));
+    }
+
+    @Test
+    public void givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnFalse() {
+        Assert.assertFalse(userRegistration.validatePassWord("jhfa1Adfhdsk"));
+    }
 
 }

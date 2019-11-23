@@ -25,4 +25,11 @@ public class UserRegistration {
         Matcher matcher=pattern.matcher(Email);
         return matcher.matches();
     }
+
+    public boolean validatePassWord(String Password) {
+        String patternName="((?=.*\\d)(?=.*[a-z]?)(?=.*[A-Z])(?=.*[@#$%]){1}.{8,})$";
+        Pattern pattern=Pattern.compile(patternName);
+        Matcher matcher=pattern.matcher(Password);
+        return matcher.matches();
+    }
 }
