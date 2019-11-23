@@ -134,6 +134,8 @@ public class UserRegistrationTest {
                 {"abc+100@gmail.com",true},
                 {"abc.abc@gmail.co.in",true},
                 {"abc100@gmail.com",true},
+                {"abc@1.com",true},
+                {"abc+100",false},
                 {"abc",false},
                 {"abc@.com.my",false},
                 {"abc123@gmail.a",false},
