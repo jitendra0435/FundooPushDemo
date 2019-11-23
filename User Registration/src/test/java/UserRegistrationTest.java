@@ -199,4 +199,45 @@ public class UserRegistrationTest {
         Assert.assertFalse(userRegistration.validatePassWord("jhfa1Adfhdsk"));
     }
 
+    ////////////////////////////////////////////////////////////////////////////////////////////////
+
+    @Test
+    public void givenPhoneNumber_Whenproper_ShouldTenDigitNumberWithTwoDigitCountryCode_ReturnTrue() {
+        Assert.assertTrue(userRegistration.validatePhoneNumber("919021547869"));
+    }
+
+    @Test
+    public void givenPhoneNumber_Whenproper_ShouldOneSpaceAfterCountryCode_ReturnTrue() {
+        Assert.assertTrue(userRegistration.validatePhoneNumber("91 9021547869"));
+    }
+
+    @Test
+    public void givenPhoneNumber_Whenproper_ShouldCountryCodeTwoDigitNumber_ReturnTrue() {
+        Assert.assertTrue(userRegistration.validatePhoneNumber("91 9021547869"));
+    }
+
+    @Test
+    public void givenPhoneNumber_WhenImproper_ShouldCountryCodeTwoDigitNumber_ReturnFalse() {
+        Assert.assertFalse(userRegistration.validatePhoneNumber("919 9021547869"));
+    }
+
+    @Test
+    public void givenPhoneNumber_Whenproper_ShouldOnlyNumericValue_ReturnTrue() {
+        Assert.assertTrue(userRegistration.validatePhoneNumber("919021547869"));
+    }
+
+    @Test
+    public void givenPhoneNumber_WhenImproper_ShouldOnlyNumericValue_ReturnFalse() {
+        Assert.assertFalse(userRegistration.validatePhoneNumber("9190215478df"));
+    }
+
+    @Test
+    public void givenPhoneNumber_WhenImproper_ShouldSpecialSymbol_ReturnFalse() {
+        Assert.assertFalse(userRegistration.validatePhoneNumber("91902154@78"));
+    }
+
+    @Test
+    public void givenPhoneNumber_WhenImproper_ShouldNoSpaceInPhoneNumber_ReturnFalse() {
+        Assert.assertFalse(userRegistration.validatePhoneNumber("91902154 78"));
+    }
 }

@@ -32,4 +32,12 @@ public class UserRegistration {
         Matcher matcher=pattern.matcher(Password);
         return matcher.matches();
     }
+
+    public boolean validatePhoneNumber(String PhoneNumber) {
+        String patternName="^[0-9]{2}[ ]?[0-9]{10}$";
+        Pattern pattern=Pattern.compile(patternName);
+        Matcher matcher=pattern.matcher(PhoneNumber);
+        return matcher.matches();
+    }
+
 }

@@ -1,70 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="UserRegistrationTest" tests="513" skipped="0" failures="0" errors="0" timestamp="2019-11-23T06:06:03" hostname="admin265-H110M-H" time="0.145">
+<testsuite name="UserRegistrationTest" tests="665" skipped="0" failures="0" errors="0" timestamp="2019-11-23T07:34:31" hostname="admin265-H110M-H" time="0.189">
   <properties/>
-  <testcase name="givenFirstName_WhenImproper_ShouldNotNumeric_ReturnFail[0]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenProper_ShouldReturnTrue[0]" classname="UserRegistrationTest" time="0.003"/>
+  <testcase name="givenFirstName_WhenImproper_ShouldNotNumeric_ReturnFail[0]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenFirstName_WhenProper_ShouldReturnTrue[0]" classname="UserRegistrationTest" time="0.002"/>
   <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnFalse[0]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenFirstName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[0]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_WhenProper_ShouldFirstCharCapital_ReturnTrue[0]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldCountryCodeTwoDigitNumber_ReturnTrue[0]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenProper_ShouldFirstCharCapital_ReturnTrue[0]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnTrue[0]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldFirstCharCapital_ReturnTrue[0]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOnlyNumericValue_ReturnTrue[0]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnFalse[0]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[0]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenFirstName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[0]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldSpecialSymbol_ReturnFalse[0]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldTenDigitNumberWithTwoDigitCountryCode_ReturnTrue[0]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[0]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldOnlyNumericValue_ReturnFalse[0]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[0]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[0]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenFirstName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[0]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnFalse[0]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="Test[0]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[0]" classname="UserRegistrationTest" time="0.001"/>
-  <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnTrue[0]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="Test[0]" classname="UserRegistrationTest" time="0.002"/>
+  <testcase name="givenFirstName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[0]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnTrue[0]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldReturnTrue[0]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldSpace_ReturnFail[0]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldCountryCodeTwoDigitNumber_ReturnFalse[0]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[0]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenImproper_ShouldSpace_ReturnFail[0]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenFirstName_WhenImproper_ShouldSpace_ReturnFail[0]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenFirstName_WhenProper_ShouldNotSpace_ReturnTrue[0]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnTrue[0]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldNotNumeric_ReturnFail[0]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOneSpaceAfterCountryCode_ReturnTrue[0]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[0]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldNotSpace_ReturnTrue[0]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnFalse[0]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnFalse[0]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnTrue[0]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenImproper_ShouldNotNumeric_ReturnFail[1]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldNoSpaceInPhoneNumber_ReturnFalse[0]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenFirstName_WhenImproper_ShouldNotNumeric_ReturnFail[1]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenFirstName_WhenProper_ShouldReturnTrue[1]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnFalse[1]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[1]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_WhenProper_ShouldFirstCharCapital_ReturnTrue[1]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldCountryCodeTwoDigitNumber_ReturnTrue[1]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenProper_ShouldFirstCharCapital_ReturnTrue[1]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnTrue[1]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldFirstCharCapital_ReturnTrue[1]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOnlyNumericValue_ReturnTrue[1]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnFalse[1]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[1]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[1]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldSpecialSymbol_ReturnFalse[1]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldTenDigitNumberWithTwoDigitCountryCode_ReturnTrue[1]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenLastName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[1]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldOnlyNumericValue_ReturnFalse[1]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[1]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[1]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnFalse[1]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="Test[1]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[1]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnTrue[1]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnTrue[1]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenLastName_WhenProper_ShouldReturnTrue[1]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldSpace_ReturnFail[1]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldCountryCodeTwoDigitNumber_ReturnFalse[1]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[1]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldSpace_ReturnFail[1]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldNotSpace_ReturnTrue[1]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnTrue[1]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_WhenImproper_ShouldNotNumeric_ReturnFail[1]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenImproper_ShouldNotNumeric_ReturnFail[1]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOneSpaceAfterCountryCode_ReturnTrue[1]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[1]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldNotSpace_ReturnTrue[1]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnFalse[1]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnFalse[1]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnTrue[1]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenImproper_ShouldNotNumeric_ReturnFail[2]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldNoSpaceInPhoneNumber_ReturnFalse[1]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenFirstName_WhenImproper_ShouldNotNumeric_ReturnFail[2]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenFirstName_WhenProper_ShouldReturnTrue[2]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnFalse[2]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[2]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenFirstName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[2]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldCountryCodeTwoDigitNumber_ReturnTrue[2]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldFirstCharCapital_ReturnTrue[2]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnTrue[2]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldFirstCharCapital_ReturnTrue[2]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOnlyNumericValue_ReturnTrue[2]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnFalse[2]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[2]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldSpecialSymbol_ReturnFalse[2]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldTenDigitNumberWithTwoDigitCountryCode_ReturnTrue[2]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[2]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldOnlyNumericValue_ReturnFalse[2]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[2]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[2]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnFalse[2]" classname="UserRegistrationTest" time="0.0"/>
@@ -72,80 +93,104 @@
   <testcase name="givenFirstName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[2]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnTrue[2]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldReturnTrue[2]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_WhenImproper_ShouldSpace_ReturnFail[2]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenImproper_ShouldSpace_ReturnFail[2]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldCountryCodeTwoDigitNumber_ReturnFalse[2]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[2]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldSpace_ReturnFail[2]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldNotSpace_ReturnTrue[2]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnTrue[2]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldNotNumeric_ReturnFail[2]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOneSpaceAfterCountryCode_ReturnTrue[2]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[2]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_WhenProper_ShouldNotSpace_ReturnTrue[2]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenProper_ShouldNotSpace_ReturnTrue[2]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnFalse[2]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnTrue[2]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenImproper_ShouldNotNumeric_ReturnFail[3]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenProper_ShouldReturnTrue[3]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldNoSpaceInPhoneNumber_ReturnFalse[2]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenFirstName_WhenImproper_ShouldNotNumeric_ReturnFail[3]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenFirstName_WhenProper_ShouldReturnTrue[3]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnFalse[3]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[3]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldCountryCodeTwoDigitNumber_ReturnTrue[3]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldFirstCharCapital_ReturnTrue[3]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnTrue[3]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldFirstCharCapital_ReturnTrue[3]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnFalse[3]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOnlyNumericValue_ReturnTrue[3]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnFalse[3]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenFirstName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[3]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldSpecialSymbol_ReturnFalse[3]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldTenDigitNumberWithTwoDigitCountryCode_ReturnTrue[3]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[3]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldOnlyNumericValue_ReturnFalse[3]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[3]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[3]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnFalse[3]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="Test[3]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[3]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnTrue[3]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnTrue[3]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldReturnTrue[3]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldSpace_ReturnFail[3]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[3]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldCountryCodeTwoDigitNumber_ReturnFalse[3]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[3]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenFirstName_WhenImproper_ShouldSpace_ReturnFail[3]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldNotSpace_ReturnTrue[3]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnTrue[3]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldNotNumeric_ReturnFail[3]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOneSpaceAfterCountryCode_ReturnTrue[3]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[3]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldNotSpace_ReturnTrue[3]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnFalse[3]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnFalse[3]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnTrue[3]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldNoSpaceInPhoneNumber_ReturnFalse[3]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldNotNumeric_ReturnFail[4]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldReturnTrue[4]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnFalse[4]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[4]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldCountryCodeTwoDigitNumber_ReturnTrue[4]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldFirstCharCapital_ReturnTrue[4]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnTrue[4]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldFirstCharCapital_ReturnTrue[4]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOnlyNumericValue_ReturnTrue[4]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnFalse[4]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[4]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldSpecialSymbol_ReturnFalse[4]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldTenDigitNumberWithTwoDigitCountryCode_ReturnTrue[4]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[4]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldOnlyNumericValue_ReturnFalse[4]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[4]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[4]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenFirstName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[4]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnFalse[4]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="Test[4]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[4]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenFirstName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[4]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnTrue[4]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldReturnTrue[4]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldSpace_ReturnFail[4]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[4]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldCountryCodeTwoDigitNumber_ReturnFalse[4]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[4]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldSpace_ReturnFail[4]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldNotSpace_ReturnTrue[4]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnTrue[4]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldNotNumeric_ReturnFail[4]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOneSpaceAfterCountryCode_ReturnTrue[4]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[4]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_WhenProper_ShouldNotSpace_ReturnTrue[4]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenProper_ShouldNotSpace_ReturnTrue[4]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnFalse[4]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnTrue[4]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldNoSpaceInPhoneNumber_ReturnFalse[4]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldNotNumeric_ReturnFail[5]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldReturnTrue[5]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnFalse[5]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[5]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldCountryCodeTwoDigitNumber_ReturnTrue[5]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenLastName_WhenProper_ShouldFirstCharCapital_ReturnTrue[5]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnTrue[5]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnTrue[5]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldFirstCharCapital_ReturnTrue[5]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOnlyNumericValue_ReturnTrue[5]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnFalse[5]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[5]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldSpecialSymbol_ReturnFalse[5]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldTenDigitNumberWithTwoDigitCountryCode_ReturnTrue[5]" classname="UserRegistrationTest" time="0.008"/>
   <testcase name="givenLastName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[5]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldOnlyNumericValue_ReturnFalse[5]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[5]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenFirstName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[5]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnFalse[5]" classname="UserRegistrationTest" time="0.0"/>
@@ -153,80 +198,104 @@
   <testcase name="givenFirstName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[5]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnTrue[5]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldReturnTrue[5]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_WhenImproper_ShouldSpace_ReturnFail[5]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenLastName_WhenImproper_ShouldSpace_ReturnFail[5]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldCountryCodeTwoDigitNumber_ReturnFalse[5]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenLastName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[5]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldSpace_ReturnFail[5]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldNotSpace_ReturnTrue[5]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnTrue[5]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldNotNumeric_ReturnFail[5]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOneSpaceAfterCountryCode_ReturnTrue[5]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[5]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_WhenProper_ShouldNotSpace_ReturnTrue[5]" classname="UserRegistrationTest" time="0.001"/>
-  <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnFalse[5]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenProper_ShouldNotSpace_ReturnTrue[5]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnFalse[5]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnTrue[5]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldNoSpaceInPhoneNumber_ReturnFalse[5]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldNotNumeric_ReturnFail[6]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldReturnTrue[6]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnFalse[6]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[6]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldCountryCodeTwoDigitNumber_ReturnTrue[6]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldFirstCharCapital_ReturnTrue[6]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnTrue[6]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldFirstCharCapital_ReturnTrue[6]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnFalse[6]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOnlyNumericValue_ReturnTrue[6]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnFalse[6]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[6]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[6]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldSpecialSymbol_ReturnFalse[6]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldTenDigitNumberWithTwoDigitCountryCode_ReturnTrue[6]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[6]" classname="UserRegistrationTest" time="0.002"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldOnlyNumericValue_ReturnFalse[6]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[6]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[6]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnFalse[6]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="Test[6]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[6]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenFirstName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[6]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnTrue[6]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldReturnTrue[6]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldSpace_ReturnFail[6]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[6]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldCountryCodeTwoDigitNumber_ReturnFalse[6]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[6]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenFirstName_WhenImproper_ShouldSpace_ReturnFail[6]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldNotSpace_ReturnTrue[6]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnTrue[6]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_WhenImproper_ShouldNotNumeric_ReturnFail[6]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenLastName_WhenImproper_ShouldNotNumeric_ReturnFail[6]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOneSpaceAfterCountryCode_ReturnTrue[6]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[6]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldNotSpace_ReturnTrue[6]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnFalse[6]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnTrue[6]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnTrue[6]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldNoSpaceInPhoneNumber_ReturnFalse[6]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldNotNumeric_ReturnFail[7]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldReturnTrue[7]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnFalse[7]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnFalse[7]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[7]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_WhenProper_ShouldFirstCharCapital_ReturnTrue[7]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldCountryCodeTwoDigitNumber_ReturnTrue[7]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenProper_ShouldFirstCharCapital_ReturnTrue[7]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnTrue[7]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldFirstCharCapital_ReturnTrue[7]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOnlyNumericValue_ReturnTrue[7]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnFalse[7]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[7]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldSpecialSymbol_ReturnFalse[7]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldTenDigitNumberWithTwoDigitCountryCode_ReturnTrue[7]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[7]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldOnlyNumericValue_ReturnFalse[7]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[7]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[7]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenFirstName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[7]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnFalse[7]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="Test[7]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="Test[7]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenFirstName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[7]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnTrue[7]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldReturnTrue[7]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldSpace_ReturnFail[7]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldCountryCodeTwoDigitNumber_ReturnFalse[7]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[7]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldSpace_ReturnFail[7]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldNotSpace_ReturnTrue[7]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnTrue[7]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldNotNumeric_ReturnFail[7]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOneSpaceAfterCountryCode_ReturnTrue[7]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[7]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldNotSpace_ReturnTrue[7]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnFalse[7]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnTrue[7]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldNoSpaceInPhoneNumber_ReturnFalse[7]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldNotNumeric_ReturnFail[8]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenProper_ShouldReturnTrue[8]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenFirstName_WhenProper_ShouldReturnTrue[8]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnFalse[8]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[8]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_WhenProper_ShouldFirstCharCapital_ReturnTrue[8]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldCountryCodeTwoDigitNumber_ReturnTrue[8]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenProper_ShouldFirstCharCapital_ReturnTrue[8]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnTrue[8]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldFirstCharCapital_ReturnTrue[8]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOnlyNumericValue_ReturnTrue[8]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnFalse[8]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[8]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[8]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldSpecialSymbol_ReturnFalse[8]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldTenDigitNumberWithTwoDigitCountryCode_ReturnTrue[8]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[8]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldOnlyNumericValue_ReturnFalse[8]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[8]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[8]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnFalse[8]" classname="UserRegistrationTest" time="0.0"/>
@@ -234,107 +303,139 @@
   <testcase name="givenFirstName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[8]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnTrue[8]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldReturnTrue[8]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_WhenImproper_ShouldSpace_ReturnFail[8]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenLastName_WhenImproper_ShouldSpace_ReturnFail[8]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldCountryCodeTwoDigitNumber_ReturnFalse[8]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[8]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldSpace_ReturnFail[8]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldNotSpace_ReturnTrue[8]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnTrue[8]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldNotNumeric_ReturnFail[8]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOneSpaceAfterCountryCode_ReturnTrue[8]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenLastName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[8]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldNotSpace_ReturnTrue[8]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnFalse[8]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnTrue[8]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnTrue[8]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldNoSpaceInPhoneNumber_ReturnFalse[8]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldNotNumeric_ReturnFail[9]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldReturnTrue[9]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnFalse[9]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[9]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldCountryCodeTwoDigitNumber_ReturnTrue[9]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldFirstCharCapital_ReturnTrue[9]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnTrue[9]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnTrue[9]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenFirstName_WhenProper_ShouldFirstCharCapital_ReturnTrue[9]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOnlyNumericValue_ReturnTrue[9]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnFalse[9]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[9]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldSpecialSymbol_ReturnFalse[9]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldTenDigitNumberWithTwoDigitCountryCode_ReturnTrue[9]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenLastName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[9]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldOnlyNumericValue_ReturnFalse[9]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[9]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[9]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnFalse[9]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="Test[9]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[9]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenFirstName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[9]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnTrue[9]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldReturnTrue[9]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_WhenImproper_ShouldSpace_ReturnFail[9]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenImproper_ShouldSpace_ReturnFail[9]" classname="UserRegistrationTest" time="0.004"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldCountryCodeTwoDigitNumber_ReturnFalse[9]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenLastName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[9]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldSpace_ReturnFail[9]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldNotSpace_ReturnTrue[9]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnTrue[9]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_WhenImproper_ShouldNotNumeric_ReturnFail[9]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenImproper_ShouldNotNumeric_ReturnFail[9]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOneSpaceAfterCountryCode_ReturnTrue[9]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[9]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldNotSpace_ReturnTrue[9]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnFalse[9]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnTrue[9]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnTrue[9]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldNoSpaceInPhoneNumber_ReturnFalse[9]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldNotNumeric_ReturnFail[10]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldReturnTrue[10]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnFalse[10]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[10]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldCountryCodeTwoDigitNumber_ReturnTrue[10]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldFirstCharCapital_ReturnTrue[10]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnTrue[10]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldFirstCharCapital_ReturnTrue[10]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOnlyNumericValue_ReturnTrue[10]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnFalse[10]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[10]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldSpecialSymbol_ReturnFalse[10]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldTenDigitNumberWithTwoDigitCountryCode_ReturnTrue[10]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[10]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldOnlyNumericValue_ReturnFalse[10]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenLastName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[10]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[10]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnFalse[10]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="Test[10]" classname="UserRegistrationTest" time="0.001"/>
-  <testcase name="givenFirstName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[10]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenFirstName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[10]" classname="UserRegistrationTest" time="0.003"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnTrue[10]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldReturnTrue[10]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_WhenImproper_ShouldSpace_ReturnFail[10]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenImproper_ShouldSpace_ReturnFail[10]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldCountryCodeTwoDigitNumber_ReturnFalse[10]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[10]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldSpace_ReturnFail[10]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldNotSpace_ReturnTrue[10]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnTrue[10]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldNotNumeric_ReturnFail[10]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOneSpaceAfterCountryCode_ReturnTrue[10]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[10]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldNotSpace_ReturnTrue[10]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnFalse[10]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnFalse[10]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnTrue[10]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldNoSpaceInPhoneNumber_ReturnFalse[10]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldNotNumeric_ReturnFail[11]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldReturnTrue[11]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnFalse[11]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[11]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldCountryCodeTwoDigitNumber_ReturnTrue[11]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldFirstCharCapital_ReturnTrue[11]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnTrue[11]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnTrue[11]" classname="UserRegistrationTest" time="0.002"/>
   <testcase name="givenFirstName_WhenProper_ShouldFirstCharCapital_ReturnTrue[11]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOnlyNumericValue_ReturnTrue[11]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnFalse[11]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[11]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldSpecialSymbol_ReturnFalse[11]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldTenDigitNumberWithTwoDigitCountryCode_ReturnTrue[11]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[11]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldOnlyNumericValue_ReturnFalse[11]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[11]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[11]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnFalse[11]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnFalse[11]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="Test[11]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[11]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnTrue[11]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldReturnTrue[11]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldSpace_ReturnFail[11]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldCountryCodeTwoDigitNumber_ReturnFalse[11]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[11]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldSpace_ReturnFail[11]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenProper_ShouldNotSpace_ReturnTrue[11]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenFirstName_WhenProper_ShouldNotSpace_ReturnTrue[11]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnTrue[11]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldNotNumeric_ReturnFail[11]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOneSpaceAfterCountryCode_ReturnTrue[11]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[11]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldNotSpace_ReturnTrue[11]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnFalse[11]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnTrue[11]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldNoSpaceInPhoneNumber_ReturnFalse[11]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldNotNumeric_ReturnFail[12]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenFirstName_WhenProper_ShouldReturnTrue[12]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnFalse[12]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[12]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldCountryCodeTwoDigitNumber_ReturnTrue[12]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldFirstCharCapital_ReturnTrue[12]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnTrue[12]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenProper_ShouldFirstCharCapital_ReturnTrue[12]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenFirstName_WhenProper_ShouldFirstCharCapital_ReturnTrue[12]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOnlyNumericValue_ReturnTrue[12]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnFalse[12]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[12]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldSpecialSymbol_ReturnFalse[12]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldTenDigitNumberWithTwoDigitCountryCode_ReturnTrue[12]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenLastName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[12]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldOnlyNumericValue_ReturnFalse[12]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[12]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[12]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnFalse[12]" classname="UserRegistrationTest" time="0.0"/>
@@ -343,177 +444,228 @@
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnTrue[12]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldReturnTrue[12]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldSpace_ReturnFail[12]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldCountryCodeTwoDigitNumber_ReturnFalse[12]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[12]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenImproper_ShouldSpace_ReturnFail[12]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenFirstName_WhenImproper_ShouldSpace_ReturnFail[12]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldNotSpace_ReturnTrue[12]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnTrue[12]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldNotNumeric_ReturnFail[12]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[12]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOneSpaceAfterCountryCode_ReturnTrue[12]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[12]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldNotSpace_ReturnTrue[12]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnFalse[12]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnTrue[12]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnTrue[12]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldNoSpaceInPhoneNumber_ReturnFalse[12]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldNotNumeric_ReturnFail[13]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldReturnTrue[13]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnFalse[13]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[13]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldCountryCodeTwoDigitNumber_ReturnTrue[13]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldFirstCharCapital_ReturnTrue[13]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnTrue[13]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldFirstCharCapital_ReturnTrue[13]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOnlyNumericValue_ReturnTrue[13]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnFalse[13]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[13]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldSpecialSymbol_ReturnFalse[13]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldTenDigitNumberWithTwoDigitCountryCode_ReturnTrue[13]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[13]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldOnlyNumericValue_ReturnFalse[13]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[13]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[13]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenFirstName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[13]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnFalse[13]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="Test[13]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[13]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnTrue[13]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldReturnTrue[13]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldSpace_ReturnFail[13]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldCountryCodeTwoDigitNumber_ReturnFalse[13]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[13]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenImproper_ShouldSpace_ReturnFail[13]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenFirstName_WhenImproper_ShouldSpace_ReturnFail[13]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldNotSpace_ReturnTrue[13]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnTrue[13]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnTrue[13]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenLastName_WhenImproper_ShouldNotNumeric_ReturnFail[13]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOneSpaceAfterCountryCode_ReturnTrue[13]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[13]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldNotSpace_ReturnTrue[13]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnFalse[13]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnTrue[13]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnTrue[13]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldNoSpaceInPhoneNumber_ReturnFalse[13]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldNotNumeric_ReturnFail[14]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldReturnTrue[14]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnFalse[14]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[14]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_WhenProper_ShouldFirstCharCapital_ReturnTrue[14]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenFirstName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[14]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldCountryCodeTwoDigitNumber_ReturnTrue[14]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenProper_ShouldFirstCharCapital_ReturnTrue[14]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnTrue[14]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldFirstCharCapital_ReturnTrue[14]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOnlyNumericValue_ReturnTrue[14]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnFalse[14]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[14]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[14]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldSpecialSymbol_ReturnFalse[14]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldTenDigitNumberWithTwoDigitCountryCode_ReturnTrue[14]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[14]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldOnlyNumericValue_ReturnFalse[14]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[14]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[14]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnFalse[14]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="Test[14]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[14]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenFirstName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[14]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnTrue[14]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldReturnTrue[14]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldSpace_ReturnFail[14]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldCountryCodeTwoDigitNumber_ReturnFalse[14]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[14]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenImproper_ShouldSpace_ReturnFail[14]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenFirstName_WhenImproper_ShouldSpace_ReturnFail[14]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldNotSpace_ReturnTrue[14]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnTrue[14]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldNotNumeric_ReturnFail[14]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOneSpaceAfterCountryCode_ReturnTrue[14]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenLastName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[14]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldNotSpace_ReturnTrue[14]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnFalse[14]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnTrue[14]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldNoSpaceInPhoneNumber_ReturnFalse[14]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldNotNumeric_ReturnFail[15]" classname="UserRegistrationTest" time="0.001"/>
-  <testcase name="givenFirstName_WhenProper_ShouldReturnTrue[15]" classname="UserRegistrationTest" time="0.001"/>
-  <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnFalse[15]" classname="UserRegistrationTest" time="0.002"/>
+  <testcase name="givenFirstName_WhenProper_ShouldReturnTrue[15]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnFalse[15]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenFirstName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[15]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_WhenProper_ShouldFirstCharCapital_ReturnTrue[15]" classname="UserRegistrationTest" time="0.001"/>
-  <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnTrue[15]" classname="UserRegistrationTest" time="0.001"/>
-  <testcase name="givenFirstName_WhenProper_ShouldFirstCharCapital_ReturnTrue[15]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldCountryCodeTwoDigitNumber_ReturnTrue[15]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenLastName_WhenProper_ShouldFirstCharCapital_ReturnTrue[15]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnTrue[15]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenFirstName_WhenProper_ShouldFirstCharCapital_ReturnTrue[15]" classname="UserRegistrationTest" time="0.002"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOnlyNumericValue_ReturnTrue[15]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnFalse[15]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[15]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldSpecialSymbol_ReturnFalse[15]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldTenDigitNumberWithTwoDigitCountryCode_ReturnTrue[15]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[15]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[15]" classname="UserRegistrationTest" time="0.004"/>
-  <testcase name="givenFirstName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[15]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldOnlyNumericValue_ReturnFalse[15]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[15]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenFirstName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[15]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnFalse[15]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="Test[15]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenFirstName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[15]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnTrue[15]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnTrue[15]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenLastName_WhenProper_ShouldReturnTrue[15]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldSpace_ReturnFail[15]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[15]" classname="UserRegistrationTest" time="0.002"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldCountryCodeTwoDigitNumber_ReturnFalse[15]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[15]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldSpace_ReturnFail[15]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenFirstName_WhenProper_ShouldNotSpace_ReturnTrue[15]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnTrue[15]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenLastName_WhenImproper_ShouldNotNumeric_ReturnFail[15]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOneSpaceAfterCountryCode_ReturnTrue[15]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[15]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenLastName_WhenProper_ShouldNotSpace_ReturnTrue[15]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnFalse[15]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnTrue[15]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldNoSpaceInPhoneNumber_ReturnFalse[15]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldNotNumeric_ReturnFail[16]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenProper_ShouldReturnTrue[16]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenFirstName_WhenProper_ShouldReturnTrue[16]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnFalse[16]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[16]" classname="UserRegistrationTest" time="0.001"/>
-  <testcase name="givenLastName_WhenProper_ShouldFirstCharCapital_ReturnTrue[16]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenFirstName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[16]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldCountryCodeTwoDigitNumber_ReturnTrue[16]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenProper_ShouldFirstCharCapital_ReturnTrue[16]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnTrue[16]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldFirstCharCapital_ReturnTrue[16]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOnlyNumericValue_ReturnTrue[16]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnFalse[16]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[16]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[16]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenFirstName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[16]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldSpecialSymbol_ReturnFalse[16]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldTenDigitNumberWithTwoDigitCountryCode_ReturnTrue[16]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[16]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldOnlyNumericValue_ReturnFalse[16]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[16]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[16]" classname="UserRegistrationTest" time="0.001"/>
-  <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnFalse[16]" classname="UserRegistrationTest" time="0.001"/>
-  <testcase name="Test[16]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnFalse[16]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="Test[16]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[16]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnTrue[16]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_WhenProper_ShouldReturnTrue[16]" classname="UserRegistrationTest" time="0.001"/>
-  <testcase name="givenLastName_WhenImproper_ShouldSpace_ReturnFail[16]" classname="UserRegistrationTest" time="0.001"/>
-  <testcase name="givenLastName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[16]" classname="UserRegistrationTest" time="0.001"/>
-  <testcase name="givenFirstName_WhenImproper_ShouldSpace_ReturnFail[16]" classname="UserRegistrationTest" time="0.001"/>
-  <testcase name="givenFirstName_WhenProper_ShouldNotSpace_ReturnTrue[16]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenLastName_WhenProper_ShouldReturnTrue[16]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenImproper_ShouldSpace_ReturnFail[16]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldCountryCodeTwoDigitNumber_ReturnFalse[16]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[16]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenFirstName_WhenImproper_ShouldSpace_ReturnFail[16]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenFirstName_WhenProper_ShouldNotSpace_ReturnTrue[16]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnTrue[16]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldNotNumeric_ReturnFail[16]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[16]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOneSpaceAfterCountryCode_ReturnTrue[16]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[16]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldNotSpace_ReturnTrue[16]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnFalse[16]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnTrue[16]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnTrue[16]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldNoSpaceInPhoneNumber_ReturnFalse[16]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldNotNumeric_ReturnFail[17]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenProper_ShouldReturnTrue[17]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenFirstName_WhenProper_ShouldReturnTrue[17]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnFalse[17]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[17]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenFirstName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[17]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldCountryCodeTwoDigitNumber_ReturnTrue[17]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldFirstCharCapital_ReturnTrue[17]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnTrue[17]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldFirstCharCapital_ReturnTrue[17]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnFalse[17]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOnlyNumericValue_ReturnTrue[17]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnFalse[17]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenFirstName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[17]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldSpecialSymbol_ReturnFalse[17]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldTenDigitNumberWithTwoDigitCountryCode_ReturnTrue[17]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[17]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[17]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldOnlyNumericValue_ReturnFalse[17]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[17]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[17]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnFalse[17]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="Test[17]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[17]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenFirstName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[17]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnTrue[17]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldReturnTrue[17]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldSpace_ReturnFail[17]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenLastName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[17]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldCountryCodeTwoDigitNumber_ReturnFalse[17]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[17]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldSpace_ReturnFail[17]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldNotSpace_ReturnTrue[17]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnTrue[17]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldNotNumeric_ReturnFail[17]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOneSpaceAfterCountryCode_ReturnTrue[17]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[17]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldNotSpace_ReturnTrue[17]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnFalse[17]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnTrue[17]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldNoSpaceInPhoneNumber_ReturnFalse[17]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldNotNumeric_ReturnFail[18]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldReturnTrue[18]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnFalse[18]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[18]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenFirstName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[18]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldCountryCodeTwoDigitNumber_ReturnTrue[18]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldFirstCharCapital_ReturnTrue[18]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldMinimumEightChar_ReturnTrue[18]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldFirstCharCapital_ReturnTrue[18]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnFalse[18]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOnlyNumericValue_ReturnTrue[18]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnFalse[18]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[18]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldSpecialSymbol_ReturnFalse[18]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldTenDigitNumberWithTwoDigitCountryCode_ReturnTrue[18]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[18]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldOnlyNumericValue_ReturnFalse[18]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[18]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[18]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenFirstName_WhenProper_ShouldMinimumThreeChar_ReturnTrue[18]" classname="UserRegistrationTest" time="0.001"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnFalse[18]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="Test[18]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldMinimumThreeChar_ReturnFail[18]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnTrue[18]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPassword_Whenproper_ShouldAtLeastOneCapitalChar_ReturnTrue[18]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldReturnTrue[18]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldSpace_ReturnFail[18]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldCountryCodeTwoDigitNumber_ReturnFalse[18]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse[18]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenImproper_ShouldSpace_ReturnFail[18]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_WhenProper_ShouldNotSpace_ReturnTrue[18]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldAtLeastOneNumeric_ReturnTrue[18]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldNotNumeric_ReturnFail[18]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_Whenproper_ShouldOneSpaceAfterCountryCode_ReturnTrue[18]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenImproper_ShouldFirstCharCapital_ReturnFalse[18]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldNotSpace_ReturnTrue[18]" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnFalse[18]" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnFalse[18]" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_Whenproper_ShouldExactOneSpecialSymbol_ReturnTrue[18]" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_WhenImproper_ShouldNoSpaceInPhoneNumber_ReturnFalse[18]" classname="UserRegistrationTest" time="0.0"/>
   <system-out><![CDATA[true
 true
 true
