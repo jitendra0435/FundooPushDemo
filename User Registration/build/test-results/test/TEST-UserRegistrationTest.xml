@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="UserRegistrationTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-11-22T12:59:34" hostname="admin265-H110M-H" time="0.005">
+<testsuite name="UserRegistrationTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2019-11-23T04:15:41" hostname="admin265-H110M-H" time="0.012">
   <properties/>
-  <testcase name="givenFirstName_WhenImproper_ShouldNotNumericFail" classname="UserRegistrationTest" time="0.001"/>
-  <testcase name="givenFirstName_WhenProper_ShouldMinimumThreeCharTrue" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenFirstName_WhenImproper_ShouldNotNumeric_ReturnFail" classname="UserRegistrationTest" time="0.002"/>
   <testcase name="givenFirstName_WhenProper_ShouldReturnTrue" classname="UserRegistrationTest" time="0.002"/>
-  <testcase name="givenFirstName_WhenImproper_ShouldFirstCharCapitalFalse" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenProper_ShouldNotSpaceTrue" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenImproper_ShouldNotAnySpecialSymbolFalse" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenFirstName_WhenImproper_ShouldFirstCharCapital_ReturnFalse" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenProper_ShouldFirstCharCapital_ReturnTrue" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenFirstName_WhenProper_ShouldFirstCharCapital_ReturnTrue" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenFirstName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenProper_ShouldMinimumThreeChar_ReturnTrue" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenImproper_ShouldMinimumThreeChar_ReturnFail" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenFirstName_WhenProper_ShouldMinimumThreeChar_ReturnTrue" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenFirstName_WhenImproper_ShouldMinimumThreeChar_ReturnFail" classname="UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldReturnTrue" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenImproper_ShouldSpaceFail" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenProper_ShouldFirstCharCapitalTrue" classname="UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_WhenImproper_ShouldMinimumThreeCharFail" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenImproper_ShouldSpace_ReturnFail" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenImproper_ShouldNotAnySpecialSymbol_ReturnFalse" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenFirstName_WhenImproper_ShouldSpace_ReturnFail" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenFirstName_WhenProper_ShouldNotSpace_ReturnTrue" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenImproper_ShouldNotNumeric_ReturnFail" classname="UserRegistrationTest" time="0.001"/>
+  <testcase name="givenLastName_WhenImproper_ShouldFirstCharCapital_ReturnFalse" classname="UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_WhenProper_ShouldNotSpace_ReturnTrue" classname="UserRegistrationTest" time="0.0"/>
   <system-out><![CDATA[true
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
