@@ -41,17 +41,17 @@ public class UserRegistrationTest {
     }
 
     @Test
-    public void givenFirstName_WhenImproper_ShouldMinimumThreeChar_ReturnFail() {
+    public void givenFirstName_WhenImproper_ShouldMinimumThreeChar_ReturnFalse() {
         Assert.assertFalse(userRegistration.validateFirstName("Up"));
     }
 
     @Test
-    public void givenFirstName_WhenImproper_ShouldNotNumeric_ReturnFail() {
+    public void givenFirstName_WhenImproper_ShouldNotNumeric_ReturnFalse() {
         Assert.assertFalse(userRegistration.validateFirstName("Up123124"));
     }
 
     @Test
-    public void givenFirstName_WhenImproper_ShouldSpace_ReturnFail() {
+    public void givenFirstName_WhenImproper_ShouldSpace_ReturnFalse() {
         Assert.assertFalse(userRegistration.validateFirstName("Upe ndra"));
     }
 
@@ -87,17 +87,17 @@ public class UserRegistrationTest {
     }
 
     @Test
-    public void givenLastName_WhenImproper_ShouldMinimumThreeChar_ReturnFail() {
+    public void givenLastName_WhenImproper_ShouldMinimumThreeChar_ReturnFalse() {
         Assert.assertFalse(userRegistration.validateLastName("Up"));
     }
 
     @Test
-    public void givenLastName_WhenImproper_ShouldNotNumeric_ReturnFail() {
+    public void givenLastName_WhenImproper_ShouldNotNumeric_ReturnFalse() {
         Assert.assertFalse(userRegistration.validateLastName("Up123124"));
     }
 
     @Test
-    public void givenLastName_WhenImproper_ShouldSpace_ReturnFail() {
+    public void givenLastName_WhenImproper_ShouldSpace_ReturnFalse() {
         Assert.assertFalse(userRegistration.validateLastName("Upe ndra"));
     }
 
@@ -240,4 +240,5 @@ public class UserRegistrationTest {
     public void givenPhoneNumber_WhenImproper_ShouldNoSpaceInPhoneNumber_ReturnFalse() {
         Assert.assertFalse(userRegistration.validatePhoneNumber("91902154 78"));
     }
+
 }
