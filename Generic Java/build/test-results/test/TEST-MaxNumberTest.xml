@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MaxNumberTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2019-11-29T11:11:52" hostname="admin265-H110M-H" time="0.011">
+  <properties/>
+  <testcase name="maximum_ThreeIntegerNumber_CheckThirdElement" classname="MaxNumberTest" time="0.003"/>
+  <testcase name="maximum_NumberFloatOfElement" classname="MaxNumberTest" time="0.001"/>
+  <testcase name="maximum_NumberOfElement" classname="MaxNumberTest" time="0.001"/>
+  <testcase name="findMaximum_ThreeFloatNumber_CheckFirstElement" classname="MaxNumberTest" time="0.0"/>
+  <testcase name="findMaximum_ThreeFloatNumber_CheckThirdElement" classname="MaxNumberTest" time="0.0"/>
+  <testcase name="maximum_ThreeIntegerNumber_CheckSecondElement" classname="MaxNumberTest" time="0.0"/>
+  <testcase name="findMaximum_ThreeFloatNumber_CheckSecondElement" classname="MaxNumberTest" time="0.003"/>
+  <testcase name="maximum_ThreeStringValue_CheckFirstElement" classname="MaxNumberTest" time="0.0"/>
+  <testcase name="maximum_ThreeStringValue_CheckThirdElement" classname="MaxNumberTest" time="0.0"/>
+  <testcase name="maximum_ThreeStringValue_CheckSecondElement" classname="MaxNumberTest" time="0.001"/>
+  <testcase name="maximum_ThreeIntegerNumber_CheckFirstElement" classname="MaxNumberTest" time="0.0"/>
+  <testcase name="findMaximum_ThreeElementValue_ByGenericMethod" classname="MaxNumberTest" time="0.0"/>
+  <testcase name="maximum_NumberStringOfElement" classname="MaxNumberTest" time="0.0"/>
+  <system-out><![CDATA[Maximum value = 3
+Maximum value = 9.9
+Maximum value = 9
+Maximum value = 3.3
+Maximum value = 3.3
+Maximum value = 3
+Maximum value = 3.3
+Maximum value = 3
+Maximum value = 3
+Maximum value = 3
+Maximum value = 3
+Maximum value = 3
+Maximum value = 3.3
+Maximum value = 3
+Maximum value = orange
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

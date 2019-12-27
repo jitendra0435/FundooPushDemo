@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RESTAssuredEmployeeJSONTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-27T13:36:26" hostname="admin265-H110M-H" time="1.102">
+  <properties/>
+  <testcase name="givenEmployee_OnUpdate_ShouldReturnUpdatedEmployee" classname="RESTAssuredEmployeeJSONTests" time="1.102"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
